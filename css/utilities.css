@@ -1,0 +1,88 @@
+/* Fonts */
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/Poppins.woff);
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/Roboto.woff);
+}
+
+/* General Sytles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Images Styles */
+img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #EC4C7A;
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    color: #202428;
+    font-size: 5.5rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: #202428;
+}
+
+/* Paragraph Styles */
+p {
+    color: #757575;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+/* Button Styles */
+.btn {
+    border: none;
+    outline: none;
+    padding: 1.5rem 5.3rem;
+    font-family: 'Roboto', sans-serif;
+    background-image:linear-gradient(#EC4F91, #ED4B73);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #fff;
+}
